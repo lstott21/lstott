@@ -1,0 +1,76 @@
+* body {
+    background: url('assets/images/space.jpg') no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: auto !important;
+    max-width: 1080px;
+  }
+section {
+    height: fit-content;
+}
+.navbar {
+    /* background-color: rgba(255, 255, 255, 0.50); */
+    background-color: transparent;
+    /* box-shadow: 0px 4px 10px white; */
+    /* backdrop-filter: blur(10px); */
+}
+.navbar .navbar-nav {
+    text-align: right;
+    padding-right: 20px;
+}
+.navbar .nav-link {
+    color: white;
+}
+
+#navbar-title {
+    color: white !important;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.panel{
+    width: 2rem;
+    height: 90%;
+    box-shadow: 0 0 10px black;
+    margin: 1rem;
+    border-radius: 20px;
+    flex: .5;
+    background: white no-repeat scroll center;
+    transition: all 0.5s linear;
+    filter: grayscale(1);
+    position: relative;
+}
+.panel h3{
+    position: relative;
+    margin: auto;
+    color: white;
+    font-size: 2.5rem;
+    transform: rotate(-90deg);
+    transition: all 0.5s linear;
+}
+.active{
+    flex: 3;
+    filter: grayscale(0);
+}
+.active h3{
+    transform: rotate(0deg);
+    margin-top: 2rem;
+    padding-left: 2rem;
+    text-shadow: 0 0 3px black;
+}
+
+#panel-1{ background-image: url("assets/images/space.jpg")}
+#panel-2{ background-image: url("assets/images/space.jpg")}
+#panel-3{ background-image: url("assets/images/space.jpg")}
+
+.card-title {
+    text-align: center;
+}
