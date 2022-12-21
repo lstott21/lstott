@@ -6,7 +6,7 @@
     background-size: cover;
     -o-background-size: cover;
     margin: auto !important;
-    max-width: 1080px;
+    width: 1080px;
   }
 section {
     height: fit-content;
@@ -37,15 +37,14 @@ section {
     height: 100%;
 }
 .panel{
-    width: 2rem;
-    height: 90%;
+    width: 1rem;
+    height: 90vh;
     box-shadow: 0 0 10px black;
-    margin: 1rem;
-    border-radius: 20px;
-    flex: .5;
+    margin: .5rem;
+    border-radius: 1rem;
+    flex: .25;
     background: white no-repeat scroll center;
-    transition: all 0.5s linear;
-    filter: grayscale(1);
+    transition: all 0.4s linear;
     position: relative;
 }
 .panel h3{
@@ -58,7 +57,6 @@ section {
 }
 .active{
     flex: 3;
-    filter: grayscale(0);
 }
 .active h3{
     transform: rotate(0deg);
